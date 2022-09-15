@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --primary-color: #facc15;
+    --dark-grey: #6B7280;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    margin: 0px;
+    font-size: x-large
+}
+
+/*----------Textbox-----------*/
+
+textarea {
+    width: 80%;
+    height: 20vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/*----------Header-----------*/
+
+.hero {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.hero .hero-img {
+    width: 60px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.hero .hero-heading {
+    color: var(--dark-grey);
+    text-align: center;
+}
+
+/*----------Container-----------*/
+
+.container {
+    padding: 2rem 1rem;
+}
+
+.container-centre {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+/*----------Button-----------*/
+
+#btn-translate {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+}
+
+/*----------Footer-----------*/
+
+.footer {
+    background-color: var(--primary-color);
+    padding-top: 2rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.footer-para {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
